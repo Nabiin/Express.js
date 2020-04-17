@@ -14,9 +14,6 @@ console.log(publicPathDir)
 app.use(express.static(publicPathDir))
 
 
-
-
-
 app.listen('3000' , ()=>{
     console.log('app is listing in port 3000')
 })
